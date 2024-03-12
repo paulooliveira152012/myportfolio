@@ -1,0 +1,142 @@
+
+
+
+.portfolio {
+    /* background-color: aliceblue;/ */
+    margin: 100px 20px;
+    display: block;
+    height: 100%;
+    /* background-color: red; */
+}
+
+
+ul {
+    list-style: none;
+    display: flex;
+    height: 100%;
+    width: auto
+    /* justify-content: space-around; */
+}
+
+
+.portfolio ul {
+    /* background-color: red; */
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: space-evenly;
+}
+
+.portfolio li {
+    margin: 20px;
+}
+
+.grads {
+    background-image: url(../../assets/images//grads.png);
+    width: 200px;
+    height: 100px;
+    background-size: cover;
+}
+
+.runbuddy {
+    background-image: url(../../assets/images/runbuddy.jpeg);
+    width: 200px;
+    height: 100px;
+    background-size: cover;
+}
+
+.horiseon {
+    background-image: url(../../assets/images/horiseon.jpg);
+    width: 200px;
+    height: 100px;
+    background-size: cover;
+}
+
+.NEE {
+    background-image: url(../../assets/images/NEE.jpeg);
+    width: 200px;
+    height: 100px;
+    background-size: cover;
+}
+
+.listenup {
+    background-image: url(../../assets/images/listenup.png);
+    width: 200px;
+    height: 100px;
+    margin: auto;
+    background-size: cover;
+}
+
+.weather {
+    background-image: url(../../assets/images/weather.png);
+    width: 200px;
+    height: 100px;
+    background-size: cover;
+}
+
+.passwordGenerator {
+    background-image: url(../../assets/images/passwordGenerator.png);
+    width: 200px;
+    height: 100px;
+    background-size: cover;
+}
+
+.tictactoe {
+    background-image: url(../../assets/images/tictactoe.png);
+    width: 200px;
+    height: 100px;
+    background-size: cover;
+}
+
+
+
+.container {
+    background-color: red;
+    /* width: 100%; */
+    position: relative;
+    margin: 20px;
+}
+
+.portfolio li {
+    display: block;
+    /* width: 100%; */
+    margin: auto;  /*makes image occupy 100% space*/
+}
+
+.title1 {
+    background-color: black;
+    position: absolute;
+    padding: 2px;
+    right: 0px;
+    bottom: 0px;
+    color: white;
+    font-weight: 800;
+    font-size: 20px;
+}
+
+
+@media screen and (max-width: 520px) {
+    .container {
+        background-color: red;
+        width: 100%;
+        position: relative;
+        margin: 0;
+    }
+
+    .portfolio li {
+        display: block;
+        width: 100%;
+        margin: auto;  /*makes image occupy 100% space*/
+    }
+
+    .title1 {
+        /* background-color: transparent; */
+        position: absolute;
+        /* right: 5px; */
+        bottom: 0px;
+        color: white;
+        font-weight: 800;
+        font-size: 20px;
+    }
+
+
+}

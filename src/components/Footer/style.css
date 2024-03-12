@@ -1,0 +1,81 @@
+html {
+   position: relative;
+   min-height: 100%;
+}
+
+
+body {
+   margin: 0;
+   padding-bottom: 100px; /* adjust to the height of your footer */
+ }
+
+
+footer {
+   background-color: red;
+   position: fixed;
+   bottom: 0;
+   position:absolute;
+   display: flex;
+   /* height: 200px; */
+   --main-bg-color:#151516;
+   padding: 0px;
+   margin-bottom: 0px;
+   margin-top: 50px;
+   width: 100%;
+}
+ 
+.socialMedia {
+   /* background-color: purple; */
+   /* height: 100%; */
+   flex: 1;
+   padding: 20px;
+}
+
+.socialMedia ul {
+   margin-top: 20px;
+   height: auto;
+}
+
+.socialMedia li {
+   margin: 20px 20px 20px 0;
+}
+
+
+.contactInfo {
+   /* background-color: blue; */
+   height: 100%;
+   flex: 1;
+   padding: 20px 0px 20px 0px;
+}
+
+.contactInfo ul {
+   margin-top: 20px;
+}
+
+.contactInfo li {
+   margin: 20px 20px 20px 0;
+}
+
+
+.footer h3 {
+   margin-bottom: 50px;
+}
+
+.footer ul {
+   list-style: none;
+}
+
+@media screen and (max-width:500px) {
+   
+   footer {
+      width: 100%;
+   }
+
+   .socialMedia {
+      flex: 1;
+   }
+
+   .contactInfo {
+      flex: 1;
+   }
+}

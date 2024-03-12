@@ -1,0 +1,60 @@
+
+main {
+    max-width: 1030px;
+    margin: auto;
+    /* background-color: white; */
+}
+
+.image {
+    width: 100px;
+    float: left;
+    margin: 0 25px 20px 0;
+    margin: auto;
+    margin: 0 20px 20px 0;
+}
+
+
+section {
+    display: flex;
+    justify-content:space-around;
+}
+
+.aboutMe {
+    margin: 100px;
+    height: 100%;
+    display: block;
+    /* max-width: 830px; */
+    /* width: 100%; */
+    /* background-color: white; */
+
+
+}
+
+
+h2 {
+    margin-bottom: 50px;
+}
+
+footer {
+    bottom: 0;
+    /* background-color: red; */
+}
+
+.writtenContent {
+    margin-bottom: 200px;
+    /* text-align: justify; */
+    /* background-color: white; */
+}
+
+
+section div {
+    display: block;
+    margin-bottom: 200px;
+}
+
+@media screen and (max-width: 520px) {
+    .writtenContent {
+        width: 90%;
+        /* background-color: red; */
+    }
+}
